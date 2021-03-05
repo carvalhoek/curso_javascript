@@ -1,3 +1,23 @@
+var idade = prompt("qual sua idade")
+if (idade >= 18){
+    alert("maior de idade")
+} else{
+    alert("menor de idade")
+}
+
+var count = 0
+while (count < 5){
+    console.log(count)
+    count++
+}
+var count
+for (count=0; count <= 5; count++){
+    alert(count)
+} 
+
+var d = new Date()
+alert(d.getMonth() + 1)
+/*
 var nome = "Eduardo Kreutz Carvalho";
 var idade = 29;
 var frase = "Japão é muito bom";
@@ -24,3 +44,4 @@ console.log("Recrutador esse é um projeto muito básico para você estar olhand
 //o replace não altera a variavel original
 console.log(frase.replace("Japão","Brasil"))
 console.log(frase.toLocaleUpperCase())
+*/
