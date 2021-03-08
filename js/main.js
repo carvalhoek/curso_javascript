@@ -1,3 +1,49 @@
+
+function botao(){
+    document.getElementById("clicou").innerHTML = "Obrigado por clicar"
+}
+function botao2(){
+    window.open("https://google.com")
+    //windor.location.href = "https://google.com"
+}
+function trocar(element){
+    //document.getElementById("mouse").innerHTML = "obrigado por passar o mouse"
+    element.innerHTML = "obrigado por passar o mouse"
+}
+
+function voltar(element){
+    //document.getElementById("mouse").innerHTML = "passe o mouse aqui"
+    element.innerHTML = "passe o mouse aqui"
+}
+function load(){
+    alert("Pagina carregada")
+}
+function change(element){
+    console.log(element.value)
+}
+/*
+function soma(n1, n2){
+    return n1+n2
+}
+
+function setReplace(frase, nome, novo){
+    return frase.replace(nome,novo)
+}
+
+function valida_idade(idade){
+    if(idade >= 18){
+        return true
+    } else {
+        return false
+    }
+}
+
+
+
+
+
+
+
 var idade = prompt("qual sua idade")
 if (idade >= 18){
     alert("maior de idade")
@@ -17,7 +63,7 @@ for (count=0; count <= 5; count++){
 
 var d = new Date()
 alert(d.getMonth() + 1)
-/*
+
 var nome = "Eduardo Kreutz Carvalho";
 var idade = 29;
 var frase = "Japão é muito bom";

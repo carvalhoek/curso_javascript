@@ -4,7 +4,16 @@
         <meta charset="utf-8">
         <script type="text/javascript" src="js/main.js"></script>
     </head>
-    <body>
-        <h1>Minhap página</h1>
+    <body onload="load()">
+        <h1>Minha página</h1>
+        <button type="button" onclick="botao()">Clique aqui</button>
+        <button type="button" onclick="botao2()">Clique aqui 2</button>
+        <p id="mouse" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+        <h3 id="clicou"></h3>
+        <select onchange="change(this)">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
     </body>
 </html>
